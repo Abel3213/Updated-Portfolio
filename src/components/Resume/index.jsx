@@ -8,7 +8,11 @@ const Resume = () => {
     <section className='d-flex justify-content-center'>
       <div id='pdf'>
         <Document file={myResume}>
-          <Page pageNumber={1} />
+          <Page
+            pageNumber={1}
+            renderAnnotationLayer={false}
+            renderTextLayer={false}
+          />
         </Document>
       </div>
     </section>
