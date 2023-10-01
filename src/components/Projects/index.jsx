@@ -26,7 +26,7 @@ const Projects = () => {
               rel='noreferrer'
             >
               <div className='card-img-overlay'>
-                <h5 className='card-title'>Card title</h5>
+                <h5 className='card-title'></h5>
               </div>
             </a>
           </div>
@@ -38,7 +38,7 @@ const Projects = () => {
               rel='noreferrer'
             >
               <div className='card-img-overlay'>
-                <h5 className='card-title'>Card title</h5>
+                <h5 className='card-title'></h5>
               </div>
             </a>
           </div>
@@ -50,7 +50,7 @@ const Projects = () => {
               rel='noreferrer'
             >
               <div className='card-img-overlay'>
-                <h5 className='card-title'>dasdasd</h5>
+                <h5 className='card-title'></h5>
               </div>
             </a>
           </div>

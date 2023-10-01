@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import Aboutme from './components/Aboutme';
-
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
