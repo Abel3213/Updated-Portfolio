@@ -42,10 +42,10 @@ function Contact() {
     }
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILID,
-        process.env.REACT_APP_EMAILTEMP,
+        import.meta.env.VITE_EMAILID_KEY,
+        import.meta.env.VITE_EMAILTEMP_KEY,
         form.current,
-        process.env.REACT_APP_EMAILKEY
+        import.meta.env.VITE_EMAILKEY_KEY
       )
       .then(
         (result) => {
