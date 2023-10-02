@@ -1,9 +1,5 @@
 // import Myimg from './myimg.jpg';
 
-const log = () => {
-  console.log(import.meta.env.local.VITE_EMAILID_KEY);
-};
-
 const Aboutme = () => {
   return (
     <section id='about-me' className='about-me d-flex'>
@@ -16,10 +12,6 @@ const Aboutme = () => {
           new technologies and ways to improve my skills. Let's build something
           great together!
         </p>
-
-        <button type='submit' className='btn' id='formbtn' onClick={log}>
-          fsdfs
-        </button>
       </div>
       <div className='my-img'>
         <img src='./myimg.jpg' alt='' />
