@@ -52,6 +52,7 @@ function Contact() {
           console.log(result.text);
           console.log('message sent');
           e.target.reset();
+          setFormState({ name: '', email: '', message: '' });
         },
         (error) => {
           console.log(error.text);
