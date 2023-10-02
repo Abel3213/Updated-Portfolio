@@ -1,7 +1,7 @@
 // import Myimg from './myimg.jpg';
 
 const log = () => {
-  console.log(import.meta.env.EMAILID_KEY);
+  console.log(import.meta.env.local.VITE_EMAILID_KEY);
 };
 
 const Aboutme = () => {
